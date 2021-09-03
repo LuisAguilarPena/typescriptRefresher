@@ -30,7 +30,7 @@
 
 // let user = [1, 2, 3]
 
-//?  error TS2345: Argument of type 'number[]' is not assignable to parameter of type 'string'.
+//  error TS2345: Argument of type 'number[]' is not assignable to parameter of type 'string'.
 // document.body.textContent = greeter(user) 
 
 //* Removing all the arguments to the greeter call. TypeScript will let you know that you have called this function with an unexpected number of parameters. In both cases, TypeScript can offer static analysis based on both the structure of your code, and the type annotations you provide.
